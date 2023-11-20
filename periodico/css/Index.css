@@ -1,0 +1,65 @@
+
+		body {
+			background-color: #ded9de;
+		}
+			#container {			
+            display: flex;
+			text-align: center;		
+        }
+			.fyh{					
+            font-size: 15px;
+			text-align: right;
+        }
+			#titulo {				
+			font-size: 100px;
+            width: 86%;
+            height: 150px;
+            margin: 10px;
+            background-color: #8fb2bf;		
+			text-align: center;
+			
+        }
+			#registro {
+            width: 20%;
+            height: 150px;
+            margin: 10px;
+            background-color: #8fb2bf;
+			text-align: center;
+        }
+			.menu {
+			margin: 10px;
+			height: 50px;
+            background-color: #8fb2bf;
+			text-align: center;
+			font-family:Verdana;
+        }
+			table {
+			width: 100%;
+			margin: 10px;
+			font-family:Verdana;
+		}
+			footer {			
+			text-align: center;
+			margin: 10px;
+            background-color: #8fb2bf;
+			font-family:Verdana;
+		}
+			nav {
+			display: block;
+			text-align: center;
+			padding: 15px;			
+		}
+			nav a {
+			text-decoration: none;
+			color: #ded9de;
+			padding: 6px 30px;
+		}
+			nav a:hover{		
+			background-color: #3f515e;
+		}
+			form {
+			padding: 5px;
+			
+		}
+
+	

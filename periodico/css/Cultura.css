@@ -1,0 +1,53 @@
+body {
+	background-color: #ded9de;
+}
+	.container {
+	display: flex;
+	text-align: center;
+}
+	.titulo {
+	font-size: 125px;
+	width: 100%;
+	height: 150px;
+	margin: 10px;
+	background-color: #c99751;
+	text-align: center;
+	
+}
+	.menu {
+	margin: 10px;
+	height: 50px;
+	background-color: #c99751;
+	text-align: center;
+}
+	table {
+	width: 100%;
+	margin: 10px;
+	font-family:Verdana;
+}
+	caption{
+	font-size: 60px;
+}
+
+	footer {
+	text-align: center;
+	margin: 10px;
+	background-color: #c99751;
+}
+	nav {
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+	nav a {
+	text-decoration: none;
+	color: black;
+	padding: 6px 30px;
+}
+	nav a:hover{
+	background-color: #EFBC75;
+}
+	form {
+	padding: 5px;
+	
+}
