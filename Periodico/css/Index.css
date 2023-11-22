@@ -1,0 +1,85 @@
+/*El estilo del documento y el color de fondo */
+		body {
+			background-color: #ded9de;
+		}
+/*Un contenedor flexible y alineación centrada*/
+		#container {			
+            display: flex;
+			text-align: center;		
+        }
+/*El estilo d la fecha y la hora*/
+			.fyh{					
+            font-size: 15px;
+			text-align: right;
+        }
+/*El estilo del titulo CAROTA*/
+			#titulo {				
+			font-size: 100px;
+            width: 86%;
+            height: 150px;
+            margin: 10px;
+            background-color: #8fb2bf;		
+			text-align: center;
+        }
+/*El estilo para el div del registro*/
+			#registro {
+            width: 20%;
+            height: 150px;
+            margin: 10px;
+            background-color: #8fb2bf;
+			text-align: center;
+        }
+/*Estilo para el div del menu*/
+			.menu {
+			margin: 10px;
+			height: 50px;
+            background-color: #8fb2bf;
+			text-align: center;
+			font-family:Verdana;
+        }
+/* Estilo para el cuerpo donde va las noticias*/
+			table {
+			width: 100%;
+			margin: 10px;
+			font-family:Verdana;
+		}
+/* Estilo para el pie de pagina*/
+			footer {			
+			text-align: center;
+			margin: 10px;
+            background-color: #8fb2bf;
+			font-family:Verdana;
+		}
+/* representa una sección de una página cuyo propósito es proporcionar enlaces de navegación*/
+			nav {
+			display: block;
+			text-align: center;
+			padding: 15px;			
+		}
+			nav a {
+			text-decoration: none;
+			color: #ded9de;
+			padding: 6px 30px;
+		}
+			nav a:hover{		
+			background-color: #3f515e;
+		}
+			form {
+			padding: 5px;
+			
+		}
+		
+		#valoracion {
+			cursor: grab;
+		  }
+		 
+		  #valoracion:active {
+			cursor: grabbing;
+		  }
+ /* */
+		  td::first-letter {
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: brown;
+		  }
+	
