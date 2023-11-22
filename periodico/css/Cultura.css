@@ -1,10 +1,13 @@
+/*  El estilo que da color al fondo del cuerpo */
 body {
 	background-color: #ded9de;
 }
+/* Es un estilo para un contenedor que es flexible de manera que se puede mover y el texto se centra*/
 	.container {
 	display: flex;
 	text-align: center;
 }
+/* Le da estilo al texto del título */
 	.titulo {
 	font-size: 125px;
 	width: 100%;
@@ -14,40 +17,46 @@ body {
 	text-align: center;
 	
 }
+/* Da estilo al menú de inicio de sesión */
 	.menu {
 	margin: 10px;
 	height: 50px;
 	background-color: #c99751;
 	text-align: center;
 }
+/* Da estilo a la tabla con su matgen y estilo de letra */ 
 	table {
 	width: 100%;
 	margin: 10px;
 	font-family:Verdana;
 }
+/* título de tabla */
 	caption{
 	font-size: 60px;
 }
-
+/* estilo del pie de página */
 	footer {
 	text-align: center;
 	margin: 10px;
 	background-color: #c99751;
 }
+/* da estilo al menú de navegación con bloques, alinea el texto al centro y establece el relleno del borde al texto */
 	nav {
 	display: block;
 	text-align: center;
 	padding: 15px;
 }
+/* estilo del texto de las celdas*/
 	nav a {
 	text-decoration: none;
 	color: black;
 	padding: 6px 30px;
 }
+/* da estilo cuando pasas el ratón por encima de la celda cambiando de color */
 	nav a:hover{
 	background-color: #EFBC75;
 }
-	form {
-	padding: 5px;
-	
-}
+	::selection {
+	background-color: green;
+	color: blue;
+	}
