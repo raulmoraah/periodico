@@ -1,4 +1,4 @@
-
+/*estilo del cuerpo del documento. El fondo es de color gris claro, el contenido se centra en la pantalla y se utiliza un modelo de caja flexible.*/
 body {
     background-color: #ded9de;
     display: flex;
@@ -7,6 +7,7 @@ body {
     height: 200vh;
     margin: 0;   
 }
+/*estilo del contenedor del formulario. Tiene un fondo azul claro, un borde delgado y redondeado, y un relleno interno.*/
 
 #formulario-container {
    
@@ -16,20 +17,14 @@ body {
     border-radius: 5px;
     background-color: #8fb2bf;
 }
-        form.form-example {
-    display: table;
-}
 
-div.form-example {
-    display: table-row;
-}
-
+/*las etiquetas y los campos de entrada para comportarse como celdas de tabla, con un pequeño margen inferior y un espacio adicional a la derecha para las etiquetas.*/
 label,
 input {
     display: table-cell;
     margin-bottom: 1px;
 }
-
+/*Define diferentes estilos de etiquetas con diferentes tamaños y pesos de fuente.*/
 label {
     padding-right: 10px;
 }
@@ -46,7 +41,8 @@ font-size: 13px;
 font-weight: bold;
 font-size: 15px;
 }
-.titulo {
+/*Configura el estilo de dos tipos de títulos,Tamaño, centrados vertical y horizontalmente.*/
+div.titulo {
     font-weight: bold;
     font-size: 65px;
     display: flex;
@@ -65,11 +61,11 @@ font-size: 15px;
     height: 20vh;
     margin: 0; 
     }
-
+/*el fondo de los campos de entrada inválidos a un tono de rosa claro*/
     input:invalid {
         background-color: #FFC0CB;
       }
-
+/*estilo específico para el elemento con el ID "nombre". El texto es de color negro  con un pequeño relleno interno.*/
       #nombre {
         color: #333;
         padding: 5px;
